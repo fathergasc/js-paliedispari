@@ -2,7 +2,6 @@
 document.getElementById('submit').addEventListener('click', function() {
     const inputUser = document.getElementById('inputWord').value;
     console.log('Type of inputUser' + typeof inputUser);
-    //wordArray.push(inputUser.split(''));
     const check = palindromeCheck(inputUser);
     console.log('valore vero o falso della funzione palindromeCheck' + check);
     if (check == true) {
