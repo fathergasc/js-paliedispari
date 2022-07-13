@@ -1,5 +1,6 @@
 document.getElementById("submit").addEventListener("click", function () {
-  const inputUser = document.getElementById("inputWord").value;
+  inputUser = document.getElementById("inputWord").value;
+  inputUser = inputUser.toLowerCase();
   console.log("Type of inputUser" + typeof inputUser);
   const check = palindromeCheck(inputUser);
   console.log("valore vero o falso della funzione palindromeCheck" + check);
