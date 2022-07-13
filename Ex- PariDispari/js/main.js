@@ -10,7 +10,7 @@ getValue.addEventListener('click', function() {
     const sum = parseInt(number) + randomNumber;
     const result = oddOrEven(sum);
     alert('La somma è: ' + sum + '. Il numero è ' + result + '.');
-    if (result == 'pari' && pariDispari.value == 'even') {
+    if (result == pariDispari) {
         alert('Hai vinto')     
     } else { 
         alert('Hai perso')
